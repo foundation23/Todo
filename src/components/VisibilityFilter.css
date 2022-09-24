@@ -1,0 +1,48 @@
+.filter{
+    background-color: white;
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0 0 5px rgba(122,122,122,0.5);
+    color: darkgrey;
+}
+.items{
+    float:right;
+    margin: 0 0 0 15px;
+    background-color: white;
+}
+.buttons{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.visibility-filter{
+    border: none;
+    background-color: white;
+    color: grey;
+}
+.visibility-filter:hover{
+    border:1px solid #ead7d7;
+    border-radius: 2px ;
+    cursor: pointer;
+}
+.container{
+    margin: 0 10px 0 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active{
+    border:1px solid #ead7d7;
+    border-radius: 2px ;
+    cursor: pointer;
+}
